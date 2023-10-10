@@ -1,0 +1,71 @@
+/* Стили для блока expand*/
+
+.expand,
+.expand2,
+.expand3 {
+  display: flex;
+  background: #F8F8F8;
+
+}
+
+.expand__text-btn {
+  color: #1B1C21;
+  font-family: 'TT Lakes Medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.2px;
+
+}
+
+
+
+/* Стили для @media */
+
+
+@media (max-width: 480px) {
+
+  .expand,
+  .expand2 {
+      display: none;
+  }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+  .expand,
+  .expand2,
+  .expand3 {
+      padding-left: 16px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+
+
+  .expand,
+  .expand2,
+  .expand3 {
+      padding-left: 24px;
+  }
+}
+
+@media (min-width: 1120px) {
+
+
+  .expand,
+  .expand2,
+  .expand3 {
+      padding-left: 32px;
+  }
+}
+
+
+

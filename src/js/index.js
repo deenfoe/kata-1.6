@@ -1,3 +1,11 @@
-import '../scss/style.scss'
+import '../scss/style.scss';
+import './swiper.js';
+import './expand.js';
+import './expand2.js';
+import './expand3.js';
+import './readmore.js';
+import './feedback.js';
+import './callback.js';
+import './menu.js';
 
-console.log('Works!')
+import './menu-container-height.js';
