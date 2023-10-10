@@ -1,3 +1,4 @@
+https://deenfoe.github.io/tests/
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
