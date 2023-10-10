@@ -82,7 +82,7 @@
 .feedback__form-phone::placeholder,
 .feedback__form-email::placeholder,
 .feedback__form-text::placeholder {
-            color: #B5B6BC;
+            color: $text-color2;
             font-family: "TT Lakes Medium", sans-serif;
             font-size: 16px;
             font-style: normal;
@@ -95,8 +95,8 @@
             height: 118px;
             flex-shrink: 0;
             border-radius: 8px;
-            border: 1px solid #EAEAEA;
-            background: #FFF;
+            border: 1px solid $border;
+            background: $menu;
             padding-left: 16px;
             margin-bottom: 16px;
             padding-top: 12px;
@@ -105,7 +105,7 @@
 
 .feedback__agreement {
             width: 95%;
-            color: #7E7E82;
+            color: $text-color;
             font-family: "TT Lakes Medium", sans-serif;
             font-size: 14px;
             font-style: normal;
@@ -113,7 +113,7 @@
             line-height: 16px; /* 114.286% */
             margin-bottom: 19px;
             span {
-              color: #FF3E79;
+              color: $text-highlight;
             }
 }
 .feedback__send-btn {
@@ -123,8 +123,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  background: #FF3E79;
-  color: #FFF;
+  background: $text-highlight;
+  color: $menu;
   text-align: right;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 12px;

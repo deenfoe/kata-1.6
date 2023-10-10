@@ -5,7 +5,7 @@ body {
   min-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  background: #F8F8F8;
+  background: $body;
 }
 .bodywrap {
   position: relative; 
@@ -13,7 +13,7 @@ body {
 /* Стили для блока header */
 
 .header__container {
-  border-bottom: 1px solid #D9FFF5;
+  border-bottom: 1px solid $background;
   margin-bottom: 24px;        
 }
 
@@ -24,7 +24,7 @@ body {
   padding-left:  16px;
   padding-right: 16px;
   padding-bottom: 17.59px;
-  background: #fff;                     
+  background: $menu;                     
 }
 
 .menu__nav-left {
@@ -37,14 +37,14 @@ body {
   width:2px;
   height:32px;
   border-radius: 1px;
-  background: #EAEAEA;
+  background: $border;
 }
 
 .divider2 {
   width:2px;
   height:32px;
   border-radius: 1px;
-  background: #EAEAEA;
+  background: $border;
 }
 
 .menu__nav-right {
@@ -65,15 +65,11 @@ body {
 .main__container {
   // height: 509px;
   padding: 0; 
-  flex: 1 1 auto;
-  
-  
+  flex: 1 1 auto; 
 }
 
 .main-section {
   margin-bottom: 24px;
-  
- 
 }
 
 .main-section__content-left {
@@ -88,7 +84,7 @@ body {
   font-size: 28px;
   line-height: 40px;
   letter-spacing: -0.6px;
-  color: #1B1C21;
+  color: $title;
   margin-left: 16px;
   width: 288px;
   height: 40px;   
@@ -101,7 +97,7 @@ body {
   width: 4px;
   height: 40px;
   border-radius: 0 10px 10px 0;
-  background-color: #41F6D7;
+  background-color: $highlight;
 }
 
 /* Стили для блока main__nav */
@@ -129,11 +125,11 @@ body {
 
 .main__nav-list-item-button {
   font-family: "TT Lakes Medium", sans-serif;
-  background-color: #F8F8F8;
+  background-color: $body;
   white-space: nowrap;
   text-align: center;
   padding: 8px 16px 8px 16px;
-  color: #7E7E82;
+  color: $text-color;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -141,15 +137,15 @@ body {
 }
 .main__nav-list-item-button:hover {
   border-radius: 6px;
-  border: 2px solid #B8FFEC;
-  background-color: #fff;
+  border: 2px solid $border2;
+  background-color: $menu;
   
        
 }
 .active-button {
   border-radius: 6px;
-  border: 2px solid #B8FFEC;
-  background-color: #fff;
+  border: 2px solid $border2;
+  background-color: $menu;
 }
 
 /* Стили для блока info */
@@ -184,7 +180,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21;
+  color: $title;
   
 }
 .info__complany {
@@ -199,14 +195,14 @@ body {
   width: auto;
   height: 1px;
   flex-shrink: 0;
-  background: #D9FFF5;
+  background: $background;
   margin-bottom: 32px;
 }
 .footer__description {
   margin-bottom: 1;
 }
 .footer__description-text {
-  color: #1B1C21;
+  color: $title;
   font-family: "TT Lakes Regular", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -219,7 +215,7 @@ body {
  margin-bottom: 50px;
 }
 .footer__offer-text {
-  color: #1B1C21;
+  color: $title;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -239,7 +235,7 @@ margin-bottom: 21px;
 
 }
 .footer__info-text {
-  color: #7E7E82;
+  color: $text-color;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -251,7 +247,7 @@ margin-bottom: 21px;
 
 }
 .footer__offer-btn {
-  background: #F8F8F8;
+  background: $body;
 }
 
 
@@ -315,7 +311,7 @@ margin-bottom: 21px;
     padding: 0;
   }
   .main__container {
-     background-color: #F8F8F8;
+     background-color: $body;
   
   }
   .main-section__content-right {
@@ -339,7 +335,7 @@ margin-bottom: 21px;
  .info__about_text {
    
    height: 160px;
-   color: #1B1C21;
+   color: $title;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -385,7 +381,7 @@ margin-bottom: 21px;
   }
   .main-section__button {
 
-  background-color: #F8F8F8;
+  background-color: $body;
   margin-left: 25px;
   
   }

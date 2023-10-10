@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.9;
-  background: #f8f8f8;
+  background: $body;
   position: fixed;
   z-index: -1;
   transition: z-index 0.3s, opacity 0.5s ease;
@@ -16,7 +16,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #FFF;
+  background: $menu;
   box-shadow:
       16px 0px 52px 0px rgba(14, 24, 80, 0.20),
       -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
@@ -73,7 +73,7 @@
   height: 32px;
   display: flex;
   border-radius: 0 10px 10px 0;
-  background-color: #41F6D7;
+  background-color: $highlight;
 
 }
 
@@ -84,7 +84,7 @@
 }
 
 .side__menu-item {
-  color: #1B1C21;
+  color: $title;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -103,13 +103,13 @@
 
 .side__menu-item-button {
   font-size: 16px;
-  background-color: #fff;
-  color: #1B1C21;
+  background-color: $menu;
+  color: $title;
 
 }
 
 .side__menu-item-button:hover {
-  color: #7E7E82;
+  color: $text-color;
 }
 
 /*Footer*/
@@ -136,7 +136,7 @@
 }
 
 .footer__contacts-email {
-  color: #1B1C21;
+  color: $title;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -147,7 +147,7 @@
 }
 
 .footer__contacts-phone {
-  color: #1B1C21;
+  color: $title;
   font-family: "TT Lakes Bold", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -167,8 +167,8 @@
 }
 
 .footer__lang-btn {
-  background-color: #fff;
-  color: #1B1C21;
+  background-color: $menu;
+  color: $title;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -179,11 +179,11 @@
 }
 
 .footer__lang-btn:hover {
-  color: #7E7E82;
+  color: $text-color;
 }
 
 .active-button {
-  color: #7E7E82;
+  color: $text-color;
 }
 
 // .btn {

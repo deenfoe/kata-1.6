@@ -4,12 +4,12 @@
 .expand2,
 .expand3 {
   display: flex;
-  background: #F8F8F8;
+  background: $body;
 
 }
 
 .expand__text-btn {
-  color: #1B1C21;
+  color: $title;
   font-family: 'TT Lakes Medium';
   font-size: 16px;
   font-style: normal;

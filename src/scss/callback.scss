@@ -2,21 +2,21 @@
             width: 100vw;
             height: 100vh;
             opacity: 0.9605;
-            background: #F8F8F8;
+            background:$body;
             position:fixed;
             z-index: -1;
             transition:z-index 0.3s, opacity 0.5s ease;
 }
 
 .callback {
-            background-color: #fff;
+            background-color: $menu;
             height: 100%;
             position:fixed;
             top: 0;
             right: 0;
             z-index: 10;
             max-width: 320px;
-            border-left: 1px solid #D9FFF5;
+            border-left: 1px solid $background;
             transform: translateX(120%);
             transition: 0.7s ease;
             @media(min-width:1230px){
@@ -39,7 +39,7 @@
 }
 
 .callback__title {
-            color: #1B1C21;
+            color: $title;
             font-family: "TT Lakes Bold", sans-serif;
             font-size: 24px;
             font-style: normal;
@@ -56,7 +56,7 @@
             width: 4px;
             height: 40px;
             flex-shrink: 0;
-            background-color: #41F6D7;
+            background-color: $highlight;
             border-radius: 0 10px 10px 0;
             position: absolute;
             left: 0px;
@@ -75,14 +75,14 @@
             height: 48px;
             flex-shrink: 0;
             border-radius: 8px;
-            border: 1px solid #EAEAEA;
-            background: #FFF;
+            border: 1px solid $border;
+            background: $menu;
             padding-left: 16px;
             padding-top: 13px;
 }
 
 .callback__form-phone::placeholder {
-            color: #B5B6BC;
+            color: $text-color2;
             font-family: "TT Lakes Medium", sans-serif;
             font-size: 16px;
             font-style: normal;
@@ -93,7 +93,7 @@
 
 .callback__agreement {
             width: 95%;
-            color: #7E7E82;
+            color: $text-color;
             font-family: "TT Lakes Medium", sans-serif;
             font-size: 14px;
             font-style: normal;
@@ -101,7 +101,7 @@
             line-height: 16px; /* 114.286% */
             margin-bottom: 19px;
             span {
-                  color: #FF3E79;
+                  color: $text-highlight;
                   }
     }
 
@@ -112,8 +112,8 @@
             align-items: center;
             justify-content: center;
             border-radius: 16px;
-            background: #FF3E79;
-            color: #FFF;
+            background: $text-highlight;
+            color: $menu;
             text-align: right;
             font-family: "TT Lakes Medium", sans-serif;
             font-size: 12px;
