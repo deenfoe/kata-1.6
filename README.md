@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
