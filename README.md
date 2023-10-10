@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
@@ -124,3 +125,6 @@ yarn deploy
 ```
 
 Основано на [этой статье](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e)
+=======
+# test
+>>>>>>> 03a65d276726245f3331d198a158ee4791878122
