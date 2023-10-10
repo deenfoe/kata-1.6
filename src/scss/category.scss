@@ -231,8 +231,6 @@ header {
     background: #FFF;
     justify-content: space-between;
     position: relative;
-    
-
   }
   .cat__container,
   .cat2__container
@@ -362,6 +360,7 @@ header {
     position: relative;
     gap: 8px;
   }
+
   .cat3 {
     padding: 16px;
     display: flex;
@@ -375,6 +374,7 @@ header {
     justify-content: space-between;
     position: relative;
   }
+
   .cat3__service--title,
   .cat3__service--name {
     color: #1B1C21;
@@ -420,6 +420,9 @@ header {
     letter-spacing: -0.15px;
     text-transform: uppercase;
   }
+  // .openup {
+  // display: none;
+  // }
 
 }
 
