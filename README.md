@@ -1,4 +1,4 @@
-https://deenfoe.github.io/tests/
+[https://deenfoe.github.io/tests/](https://deenfoe.github.io/kata-1.6/)
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
